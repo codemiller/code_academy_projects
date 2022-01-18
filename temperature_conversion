@@ -1,0 +1,12 @@
+// temperature in kelvin is saved to variable kelvin
+const kelvin = 293;
+
+// kelvin -> celsius = kelvin - 273 
+const celsius = kelvin - 273;
+
+// celsius -> conversion equation
+// math.floor to round down fahrenheit temperature
+const fahrenheit = Math.floor(celsius * (9/5) + 32);
+
+// print interpolated string with converted temp in fahrenheit
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
