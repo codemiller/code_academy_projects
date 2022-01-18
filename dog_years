@@ -1,0 +1,22 @@
+// create a variable equal to my age in human years
+const myAge = 29
+
+// first 2 early years of a dogs life equivalent to 10.5 human years
+let earlyYears = 2
+earlyYears *= 10.5
+
+// after the first 2 years, each year in a dogs life is equivalent to 4 human years
+let laterYears = myAge - 2
+
+// multiply myAge by 4
+laterYears *= 4
+console.log(earlyYears, laterYears)
+
+// sum values of earlyYears and laterYears to obtain age in dog years
+let myAgeInDogYears = earlyYears + laterYears
+
+// storing my name to a variable and changing the casing to all lower
+let myName = 'eric'.toLowerCase()
+
+// printing interpolated string with my name and age in dog years
+console.log(`My name is ${myName}. I am ${myAgeInDogYears} years old in dog years.`)
